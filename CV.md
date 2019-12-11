@@ -4,28 +4,28 @@ Adresse<img src="./image/image.png" align=right> : 1708 routes de Sarcenas, Quai
 19 ans  
 Email : m.vecchi@it-students.fr  
 GitHub : [mon profil](https://github.com/matvki)  
-**<center > <font color='f15322'>*Curriculum Vitae*</font> </center>**  
+***Curriculum Vitae* **  
 ***
-*<font color='f15322'><center> -Formation </center></font>*  
+*- Formation*  
 ***
-* **<font color='808080'>14/04/18 - 21/04/18</font>**: Formation théorique du BAFA
-* **<font color='808080'>2017-2018</font>** : Classe de première S.T.I.2.D. (Sciences et Technologies de l'Industrie et du Développement Durable) au lycée Pierre Termier de Grenoble
-* **<font color='808080'>2016-2017</font>** : Classe de première S : scientifique option S.V.T.(Sciences de la Vie et de la Terre) et option art plastique au lycée Champollion de Grenoble
-* **<font color='808080'>2015-2016</font>** : Classe de seconde général option art plastique au lycée Champollion de Grenoble
+* **14/04/18 - 21/04/18**: Formation théorique du BAFA
+* **2017-2018** : Classe de première S.T.I.2.D. (Sciences et Technologies de l'Industrie et du Développement Durable) au lycée Pierre Termier de Grenoble
+* **2016-2017** : Classe de première S : scientifique option S.V.T.(Sciences de la Vie et de la Terre) et option art plastique au lycée Champollion de Grenoble
+* **2015-2016** : Classe de seconde général option art plastique au lycée Champollion de Grenoble
 ***
-*<center> <font color='f15322'>-Expérience professionnelle </font></center>*
+*- Expérience professionnelle*
 ***
-<font color='808080'>Février 2018 </font> : Infographiste stagiaire au sein de la société KUDETA (Saint-Ismier, 481 rue de Ribotière.).  
+Février 2018  : Infographiste stagiaire au sein de la société KUDETA (Saint-Ismier, 481 rue de Ribotière.).  
 __Réalisation majeure__ :  
-* <font color='black'>**Courte vidéo en format** </font><a href="https://youtu.be/VOCVIj5O7sc" style="color:black;">GIF</a> 
+* **Courte vidéo en format** <a href="https://youtu.be/VOCVIj5O7sc" style="color:black;">GIF</a> 
 
-<font color='808080'>Décembre 2014</font> : Infographie stagiaire au sein de la société KUDETA (Grenoble).
+Décembre 2014 : Infographie stagiaire au sein de la société KUDETA (Grenoble).
 __Réalisations majeures :  
 *  Support publicitaires pour la campagne de la foire de l'automobile de Montélimar.
 * Plaquette publicitaire pour le salon de l'étudiant de Grenoble.
 * Création d'un jeu des 7 erreurs pour un set de table dans une station de ski.
 ***
-*<center> <font color='f15322'>-Competences </font></center>*
+*-Competences*
 ***
 * Anglais : Niveau Intermédiaire
 * Outils de Bureautique : Microsoft Office
@@ -40,7 +40,7 @@ __Réalisations majeures :
     * [ ] Langage Arduino
 * PSC1 (2016)
 ***
-*<center> <font color='f15322'>-Centres d'interêts </font></center>*
+*-Centres d'interêts*
 ***
 * Pratique de Sport(Wake, ski, velo de descente, water-polo[N3], velo de route)
 * Voyages Linguistiques : Angleterre, Itaie
