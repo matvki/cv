@@ -31,8 +31,9 @@ __Réalisations majeures :
 * Outils de Bureautique : Microsoft Office
 * Langage informatique [ ] Base [x] Aquise: 
     * [ ] HTML 5
+    * [ ] MD
     * [ ] CSS 3
-    * [x] JS
+    * [ ] JS
     * [ ] SHELL
     * [ ] PHP 7.0
     * [ ] SQL
