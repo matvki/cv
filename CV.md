@@ -32,7 +32,7 @@ __Réalisations majeures :
 * Langage informatique [ ] Base [x] Aquise: 
     * [ ] HTML 5
     * [ ] CSS 3
-    * [ ] JS
+    * [x] JS
     * [ ] SHELL
     * [ ] PHP 7.0
     * [ ] SQL
