@@ -29,8 +29,7 @@ __Réalisations majeures :
 ***
 * Anglais : Niveau Intermédiaire
 * Outils de Bureautique : Microsoft Office
-* Langage informatique   
-[ ] Base  [x] Aquise: 
+* Langage informatique [ ] Base [x] Aquise: 
     * [ ] HTML 5
     * [ ] CSS 3
     * [ ] JS
