@@ -17,7 +17,7 @@ GitHub : [mon profil](https://github.com/matvki)
 ***
 <font color='808080'>Février 2018 </font> : Infographiste stagiaire au sein de la société KUDETA (Saint-Ismier, 481 rue de Ribotière.).  
 __Réalisation majeure__ :  
-* <font color='white'>**Courte vidéo en format** </font><a href="https://youtu.be/VOCVIj5O7sc" style="color:white;">GIF</a> 
+* <font color='black'>**Courte vidéo en format** </font><a href="https://youtu.be/VOCVIj5O7sc" style="color:black;">GIF</a> 
 
 <font color='808080'>Décembre 2014</font> : Infographie stagiaire au sein de la société KUDETA (Grenoble).
 __Réalisations majeures :  
