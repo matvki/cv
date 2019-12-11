@@ -29,14 +29,14 @@ __Réalisations majeures :
 ***
 * Anglais : Niveau Intermédiaire
 * Outils de Bureautique : Microsoft Office
-* Langage informatique [ ]Base  [x]Aquise: 
-    * HTML 5
-    * CSS 3
-    * JS
-    * SHELL
-    * PHP 7.0
-    * SQL
-    * Langage Arduino
+* Langage informatique [ ] Base  [x] Aquise: 
+    * [ ] HTML 5
+    * [ ] CSS 3
+    * [ ] JS
+    * [ ] SHELL
+    * [ ] PHP 7.0
+    * [ ] SQL
+    * [ ] Langage Arduino
 * PSC1 (2016)
 ***
 *<center> <font color='f15322'>-Centres d'interêts </font></center>*
@@ -46,8 +46,3 @@ __Réalisations majeures :
 * Jeux vidéo
 * Cinéma (SF, Fantastique, action)
 * Bricolage  
-- [x] Élément 1, coché
-- [ ] Élément 2, non-coché
-  - [x] Sous-élément 2.1, coché
-  - [ ] Sous-élément 2.2, non-coché
-- [ ] Élément 3, non-coché
