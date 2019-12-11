@@ -29,7 +29,7 @@ __Réalisations majeures :
 ***
 * Anglais : Niveau Intermédiaire
 * Outils de Bureautique : Microsoft Office
-* Langage informatique (Base): 
+* Langage informatique [ ]Base  [x]Aquise: 
     * HTML 5
     * CSS 3
     * JS
@@ -45,4 +45,9 @@ __Réalisations majeures :
 * Voyages Linguistiques : Angleterre, Itaie
 * Jeux vidéo
 * Cinéma (SF, Fantastique, action)
-* Bricolage
+* Bricolage  
+- [x] Élément 1, coché
+- [ ] Élément 2, non-coché
+  - [x] Sous-élément 2.1, coché
+  - [ ] Sous-élément 2.2, non-coché
+- [ ] Élément 3, non-coché
