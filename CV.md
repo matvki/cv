@@ -4,7 +4,7 @@ Adresse<img src="./image/image.png" align=right> : 1708 routes de Sarcenas, Quai
 19 ans  
 Email : m.vecchi@it-students.fr  
 GitHub : [mon profil](https://github.com/matvki)  
-**<center > <font color='f15322'>*Curriculum Vitae*</font> </center>**  
+**<center >*Curriculum Vitae*</center>**  
 ***
 *<font color='f15322'><center> -Formation </center></font>*  
 ***
