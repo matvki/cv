@@ -5,8 +5,7 @@ Adresse<img src="./image/image.png" align=right> : 1708 routes de Sarcenas, Quai
 Email : m.vecchi@it-students.fr  
 GitHub : [mon profil](https://github.com/matvki)  
 
-__*Curriculum Vitae*__ 
-***
+# __*Curriculum Vitae*__ 
 *- Formation*  
 ***
 * **14/04/18 - 21/04/18**: Formation théorique du BAFA
