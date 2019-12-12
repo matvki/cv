@@ -20,7 +20,7 @@ Mon profil [GitHub](https://github.com/matvki)
 __Réalisation majeure__ :  
 * **Courte vidéo en format** <a href="https://youtu.be/VOCVIj5O7sc" style="color:black;">GIF</a> 
 
-**Décembre 2014** : Infographie stagiaire au sein de la société KUDETA (Grenoble).
+**Décembre 2014** : Infographie stagiaire au sein de la société KUDETA (Grenoble).  
 __Réalisations majeures__ :  
 *  Support publicitaires pour la campagne de la foire de l'automobile de Montélimar.
 * Plaquette publicitaire pour le salon de l'étudiant de Grenoble.
