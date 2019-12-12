@@ -3,7 +3,7 @@ Adresse<img src="./image/image.png" align=right> : 1708 routes de Sarcenas, Quai
 0682428192  
 19 ans  
 Email : m.vecchi@it-students.fr  
-GitHub : [mon profil](https://github.com/matvki)  
+Mon profil [GitHub](https://github.com/matvki)  
 # __*Curriculum Vitae*__ 
 ### *- Formation* 
 * **2019 - 2020** : Première année de formation prépa développeur Fullstack à l'IT-Akademy (Lyon)
