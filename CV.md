@@ -38,7 +38,7 @@ __Réalisations majeures__ :
     * [ ] SQL
     * [ ] Langage Arduino
 * PSC1 (2016)
-### *-Centres d'interêts*
+### *-Centres d'intérêts*
 * Pratique de Sport(Wake, ski, velo de descente, water-polo[N3], velo de route)
 * Voyages Linguistiques : Angleterre, Itaie
 * Jeux vidéo
