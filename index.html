@@ -1,20 +1,109 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/styles.css">
-    <!-- <script src="./js/scrypt.js"></script> -->
-    <title>Document</title>
+    <title>Matteo Vecchi</title>
 </head>
+
 <body>
-    <header>
-        
+    <header class="header" id="myHeader">
+        <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li>
+                <a>à propos de moi</a>
+                <ul>
+                    <li><a href="#perso">Personnelle</a></li>
+                    <li><a href="#formation">Formation</a></li>
+                    <li><a href="#expPro">Expérience professionnelle</a></li>
+                    <li><a href="#competence">Compétences</a></li>
+                    <li><a href="#interet">Centres d'intérêts</a></li>
+                </ul>
+            </li>
+        </ul>
     </header>
     <main>
-
+        <div id="head">
+            <h1>Vecchi - Mattéo</h1>
+            <img src="./image/image.png" align=right>
+        </div>
+        <div id="formation">
+            <li class="textForm"><b>Formation</b>
+                <ul>
+                    <li>2019-2020 : Première année de formation prépa développeur Fullstack à l'IT-Akademy(Lyon)</li>
+                    <li>2019 : Obtention du Baccalauréat</li>
+                    <li>2018 - 2019 : Classe de terminal S.T.I.2.D. (Sciences et Technologies de l’Industrie et du
+                        Développement Durable) au lycée Pierre Termier de Grenoble</li>
+                    <li>14/04/18 - 21/04/18: Formation théorique du BAFA</li>
+                    <li>2017-2018 : Classe de première S.T.I.2.D. (Sciences et Technologies de l'Industrie et du
+                        Développement Durable) au lycée Pierre Termier de Grenoble</li>
+                    <li>2016-2017 : Classe de première S : scientifique option S.V.T.(Sciences de la Vie et de la Terre)
+                        et option art plastique au lycée Champollion de Grenoble</li>
+                    <li>2015-2016 : Classe de seconde général option art plastique au lycée Champollion de Grenoble</li>
+                </ul>
+            </li>
+        </div>
+        <div id="expPro">
+            <li class="textForm"><b>Expérience professionnelle</b>
+                <ul>
+                    <li><b>Août 2019 </b>: Animateur dans un centre aéré pendant 15 jours</li>
+                    <li><b>Août 2018 </b>: Animateur dans un centre aéré pendant 10 jours</li>
+                    <li><b>Février 2018 </b>: Infographiste stagiaire au sein de la société KUDETA (Saint-Ismier, 481
+                        rue de Ribotière.). <br><b>Réalisation majeur </b>:
+                        <ul>
+                            <li>Courte vidéo en format <a class="linkBlack" href="https://youtu.be/VOCVIj5O7sc"
+                                    target="_blank">GIF</a></li>
+                        </ul>
+                    </li>
+                    <li><b>Décembre 2014 </b>: Infographie stagiaire au sein de la société KUDETA (Grenoble).<br>
+                        <b>Réalisations majeures</b> :
+                        <ul>
+                            <li>Support publicitaires pour la campagne de la foire de l'automobile de Montélimar.</li>
+                            <li>Plaquette publicitaire pour le salon de l'étudiant de Grenoble.</li>
+                            <li>Création d'un jeu des 7 erreurs pour un set de table dans une station de ski.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </div>
+        <div id="competence">
+            <li class="textForm"><b>Compétences</b>
+                <ul>
+                    <li>langue</li>
+                    <li>informatique</li>
+                    <li>vie courante</li>
+                </ul>
+            </li>
+        </div>
+        <div id="interet">
+            <li class="textForm"><b>Centres d'intérêts</b>
+                <ul>
+                    <li>sports</li>
+                    <li>voyage linguistiques</li>
+                    <li>jeux vidéo</li>
+                    <li>cinéma</li>
+                </ul>
+            </li>
+        </div>
+        <div id="perso">
+            <li class="textForm"><b>Personnelle</b><br>
+                <span id="adresse" style="visibility: hidden;"><a class="linkBlack"
+                        href="https://www.google.com/maps/place/Combe+Blanche,+38950+Quaix-en-Chartreuse/@45.2487406,5.7328737,19z/data=!3m1!4b1!4m5!3m4!1s0x478af6b7f2d833eb:0xb01fd6598a17867d!8m2!3d45.248552!4d5.73326?hl=fr"
+                        target="_blank">1708 routes de Sarcenas, Quaix en Chartreuse</a></span><br><input class="button"
+                    type="button" value="Adresse" onclick="adresse();">
+                <p>0682428192</p>
+                <p>19 ans</p>
+                <span id="email" style="visibility: hidden;">m.vecchi@it-students.fr</span><br>
+                <input class="button" type="button" value="Email" onclick="email();"><br>
+                <span id="github" style="visibility: hidden;"><a class="linkBlack"
+                        href="https://www.google.com/maps/place/Combe+Blanche,+38950+Quaix-en-Chartreuse/@45.2487406,5.7328737,19z/data=!3m1!4b1!4m5!3m4!1s0x478af6b7f2d833eb:0xb01fd6598a17867d!8m2!3d45.248552!4d5.73326?hl=fr"
+                        target="_blank">matvki</a> </span><br>
+                <input class="button" type="button" value="GitHub" onclick="github();">
+            </li>
+        </div>
     </main>
-    <footer>
-
-    </footer>
+    <script src="./js/scrypt.js"></script>
 </body>
+
 </html>

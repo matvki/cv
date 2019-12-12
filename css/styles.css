@@ -1,0 +1,225 @@
+body {
+    margin: 0px;
+    background-color: grey;
+}
+
+#menu {
+    width: 100%;
+    margin: 0px;
+    padding: 10px 0 0 0;
+    list-style: none;
+    background: #111;
+    background: -moz-linear-gradient(#444, #111);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #111), color-stop(1, #444));
+    background: -webkit-linear-gradient(#444, #111);
+    background: -o-linear-gradient(#444, #111);
+    background: -ms-linear-gradient(#444, #111);
+    background: linear-gradient(#444, #111);
+    opacity: 75%;
+}
+
+#menu li {
+    float: left;
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+#menu a {
+    float: left;
+    height: 25px;
+    padding: 0 25px;
+    color: white;
+    text-transform: uppercase;
+    font: bold 12px/25px Arial, Helvetica;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+}
+
+#menu li:hover>a {
+    color: #fafafa;
+}
+
+*html #menu li a:hover {
+    /* IE6 */
+    color: #fafafa;
+}
+
+#menu li:hover>ul {
+    display: block;
+}
+
+/* Sous-menu */
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 99999;
+    background: #444;
+    background: -moz-linear-gradient(#444, #111);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #111), color-stop(1, #444));
+    background: -webkit-linear-gradient(#444, #111);
+    background: -o-linear-gradient(#444, #111);
+    background: -ms-linear-gradient(#444, #111);
+    background: linear-gradient(#444, #111);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#menu ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    -webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+}
+
+#menu ul li:last-child {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#menu ul a {
+    padding: 10px;
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+*html #menu ul a {
+    /* IE6 */
+    height: 10px;
+    width: 150px;
+}
+
+*:first-child+html #menu ul a {
+    /* IE7 */
+    height: 10px;
+    width: 150px;
+}
+
+#menu ul a:hover {
+    background: black;
+    background: -moz-linear-gradient(black, black);
+    background: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+    background: -webkit-linear-gradient(black, black);
+    background: -o-linear-gradient(black, black);
+    background: -ms-linear-gradient(black, black);
+    background: linear-gradient(black, black);
+}
+
+#menu ul li:first-child a {
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+#menu ul li:first-child a:after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #444;
+}
+
+#menu ul li:first-child a:hover:after {
+    border-bottom-color: black;
+}
+
+#menu ul li:last-child a {
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Rétablissement du flottement */
+
+#menu:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
+#head {
+    width: auto;
+    height: auto;
+    background-color: grey;
+    padding: 10px 0 0 10px;
+    line-height: 5px;
+}
+
+#formation {
+    width: auto;
+    height: auto;
+    background-color: rgb(145, 145, 145);
+}
+
+#expPro {
+    width: auto;
+    height: auto;
+    background-color: rgb(145, 145, 145);
+}
+
+#competence {
+    width: auto;
+    height: auto;
+    background-color: rgb(145, 145, 145);
+}
+
+#interet {
+    width: auto;
+    height: auto;
+    background-color: rgb(145, 145, 145);
+}
+
+#perso {
+    width: auto;
+    height: auto;
+    background-color: rgb(145, 145, 145);
+}
+
+.textForm {
+    padding: 5px 0px 0px 10px;
+}
+
+.linkBlack {
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    background-color: rgb(145, 145, 145);
+    border: none;
+    margin: 7px 0px 7px 0px;
+}
+
+#profile {
+    border-left: 1px;
+}
