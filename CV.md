@@ -6,6 +6,7 @@ Email : m.vecchi@it-students.fr
 Mon profil [GitHub](https://github.com/matvki)  
 # __*Curriculum Vitae*__ 
 ### *- Formation* 
+* **2020 - 2021** : Deuxième année de formation prépa développeur Fullstack à l'IT-Akademy (Lyon)
 * **2019 - 2020** : Première année de formation prépa développeur Fullstack à l'IT-Akademy (Lyon)
 * **2019** : Obtention du Baccalauréat 
 * **2018 - 2019** : Classe de terminal S.T.I.2.D. (Sciences et Technologies de l’Industrie et du Développement Durable) au lycée Pierre Termier de Grenoble
@@ -30,13 +31,13 @@ __Réalisations majeures__ :
 * Outils de Bureautique : Microsoft Office
 * Langage informatique [ ] Base [x] Aquise: 
     * [ ] HTML 5
-    * [ ] MD
+    * [x] MD
     * [ ] CSS 3
     * [ ] JS
-    * [ ] SHELL
-    * [ ] PHP 7.0
+    * [ ] BASH
+    * [ ] PHP 7.X
     * [ ] SQL
-    * [ ] Langage Arduino
+    * [ ] SASS
 * PSC1 (2016)
 ### *- Centres d'intérêts*
 * Pratique de Sport(Wake, ski, velo de descente, water-polo[N3], velo de route)
