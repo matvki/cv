@@ -29,7 +29,7 @@ __Réalisations majeures__ :
 ### *- Competences*
 * Anglais : Niveau Intermédiaire
 * Outils de Bureautique : Microsoft Office
-* Langage informatique * [ ] Base * [x] Aquise: 
+* Langage informatique [ ] Base [V] Aquise: 
     * [ ] HTML 5
     * [x] MD
     * [ ] CSS 3
