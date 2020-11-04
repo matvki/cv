@@ -420,27 +420,27 @@ h1 {
 }
 
 .line1:after {
-    max-width: 20%;
+    max-width: 70%;
     background: green;
 }
 
 .line2:after {
-    max-width: 2%;
+    max-width: 25%;
     background: chocolate;
 }
 
 .line3:after {
-    max-width: 25%;
+    max-width: 65%;
     background: darkgoldenrod;
 }
 
 .line4:after {
-    max-width: 10%;
+    max-width: 30%;
     background: orange
 }
 
 .line5:after {
-    max-width: 0%;
+    max-width: 70%;
     background: rgb(15, 134, 15);
 }
 
@@ -450,7 +450,7 @@ h1 {
 }
 
 .line7:after {
-    max-width: 70%;
+    max-width: 80%;
     background: rgb(255, 0, 191);
 }
 
