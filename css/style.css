@@ -360,3 +360,151 @@ body main section#competence ul li:nth-child(1), body main section#competence ul
   text-align: center;
   margin-bottom: 20px;
 }
+
+body main section#interets {
+  width: 1040px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #b6cbd6;
+  color: #ffffff;
+}
+
+body main section#interets h2 {
+  margin: 5px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+body main section#interets ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+body main section#interets ul li {
+  margin: 10px;
+  list-style: none;
+}
+
+body main section#interets ul li:nth-child(1) p {
+  background-image: url(../img/wake.JPG);
+  background-position: center;
+  background-size: cover;
+  padding: 100px 100px;
+  color: transparent;
+}
+
+body main section#interets ul li:nth-child(1) p:hover {
+  background-image: linear-gradient(to bottom, rgba(40, 57, 61, 0.575) 0%, #28393d 100%), url(../img/wake.JPG);
+  color: #ffffff;
+}
+
+body main section#interets ul li:nth-child(2) p {
+  background-image: url(../img/team.png);
+  background-position: center;
+  background-size: cover;
+  padding: 100px 100px;
+  color: transparent;
+}
+
+body main section#interets ul li:nth-child(2) p:hover {
+  background-image: linear-gradient(to bottom, rgba(40, 57, 61, 0.575) 0%, #28393d 100%), url(../img/team.png);
+  color: #ffffff;
+}
+
+body main section#interets ul li:nth-child(3) p {
+  background-image: url(../img/r6.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 100px 100px;
+  color: transparent;
+}
+
+body main section#interets ul li:nth-child(3) p:hover {
+  background-image: linear-gradient(to bottom, rgba(40, 57, 61, 0.575) 0%, #28393d 100%), url(../img/r6.jpg);
+  color: #ffffff;
+}
+
+body main section#interets ul li:nth-child(4) p {
+  background-image: url(../img/cinema.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 100px 100px;
+  color: transparent;
+}
+
+body main section#interets ul li:nth-child(4) p:hover {
+  background-image: linear-gradient(to bottom, rgba(40, 57, 61, 0.575) 0%, #28393d 100%), url(../img/cinema.jpg);
+  color: #ffffff;
+}
+
+body main section#interets ul li:nth-child(5) p {
+  background-image: url(../img/web.jpg);
+  background-position: center;
+  background-size: cover;
+  color: transparent;
+  padding: 100px 100px;
+}
+
+body main section#interets ul li:nth-child(5) p:hover {
+  background-image: linear-gradient(to bottom, rgba(40, 57, 61, 0.575) 0%, #28393d 100%), url(../img/web.jpg);
+  color: #ffffff;
+}
+
+body main section#interets ul li:nth-child(6) p {
+  background-image: url(../img/ski.jpg);
+  background-position: 0 -25px;
+  background-size: cover;
+  padding: 100px 100px;
+  color: transparent;
+}
+
+body main section#interets ul li:nth-child(6) p:hover {
+  background-image: linear-gradient(to bottom, rgba(40, 57, 61, 0.575) 0%, #28393d 100%), url(../img/ski.jpg);
+  color: #ffffff;
+}
+
+body main section#interets ul li:nth-child(7) p {
+  background-image: url(../img/f1.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 100px 100px;
+  color: transparent;
+}
+
+body main section#interets ul li:nth-child(7) p:hover {
+  background-image: linear-gradient(to bottom, rgba(40, 57, 61, 0.575) 0%, #28393d 100%), url(../img/f1.jpg);
+  color: #ffffff;
+}
+
+body main section#interets ul li:nth-child(8) p {
+  background-image: url(../img/velo.jpg);
+  background-position: 0 -80px;
+  background-size: cover;
+  padding: 100px 100px;
+  color: transparent;
+}
+
+body main section#interets ul li:nth-child(8) p:hover {
+  background-image: linear-gradient(to bottom, rgba(40, 57, 61, 0.575) 0%, #28393d 100%), url(../img/velo.jpg);
+  color: #ffffff;
+}
+
+body main section#interets ul li:nth-child(9) p {
+  background-image: url(../img/traveaux.JPG);
+  background-position: center;
+  background-size: cover;
+  padding: 100px 100px;
+  color: transparent;
+}
+
+body main section#interets ul li:nth-child(9) p:hover {
+  background-image: linear-gradient(to bottom, rgba(40, 57, 61, 0.575) 0%, #28393d 100%), url(../img/traveaux.JPG);
+  color: #ffffff;
+}
