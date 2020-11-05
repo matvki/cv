@@ -49,13 +49,13 @@ body {
     main {
         section#formation {
             border-radius: 20px;
-            width: 1080px;
+            padding: 20px;
+            width: 1040px;
             margin: 50px auto;
             font-family: "Noto Sans", sans-serif;
             color: #ffffff;
             background: rgb(138, 127, 117);
             h2 {
-                margin: 5px;
                 font-size: 30px;
                 letter-spacing: 2px;
                 text-transform: uppercase;
@@ -103,6 +103,7 @@ body {
                             position: absolute;
                             z-index: 100;
                             top: 20px;
+                            left: 5px;
                             -webkit-transition: -webkit-transform 0.2s linear;
                             cursor: pointer;
                         }
@@ -224,11 +225,13 @@ body {
             }
         }
         section#competence {
-            width: 1080px;
+            width: 1040px;
             margin: 0 auto;
+            padding: 20px;
             border-radius: 20px;
-            background-color: #677e8a;
+            background-color: #8a7b67;
             color: #ffffff;
+            margin: 50px auto;
             h2 {
                 margin: 5px;
                 font-size: 30px;
@@ -236,14 +239,108 @@ body {
                 text-transform: uppercase;
                 font-family: "Kaushan Script", cursive;
                 text-align: center;
+                margin-bottom: 50px;
             }
             ul {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
                 padding: 0 20px 30px;
                 li {
                     list-style: none;
-                    padding-top: 10px;
+                    margin: 0 10px;
                     p {
                         font-size: 20px;
+                    }
+                    div {
+                        height: 25px;
+                        width: 400px;
+                        font-size: 14px;
+                        line-height: 25px;
+                        padding-left: 10px;
+                        position: relative;
+                        margin-bottom: 20px;
+                        &::before {
+                            content: "";
+                            height: 25px;
+                            position: absolute;
+                            width: 100%;
+                            left: 0;
+                            top: 0;
+                            background-color: black;
+                        }
+                        &::after {
+                            content: "";
+                            background: #333;
+                            height: 25px;
+                            transition: 0.8s;
+                            display: block;
+                            width: 100%;
+                            animation: animate 1 4s;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                    div#html {
+                        &::after {
+                            background-color: rgb(255, 81, 0);
+                            width: 80%;
+                        }
+                    }
+                    div#css {
+                        &::after {
+                            background-color: rgb(0, 81, 255);
+                            width: 80%;
+                        }
+                    }
+                    div#js {
+                        &::after {
+                            background-color: yellow;
+                            width: 40%;
+                        }
+                    }
+                    div#php {
+                        &::after {
+                            background-color: rgb(0, 38, 255);
+                            width: 75%;
+                        }
+                    }
+                    div#md {
+                        &::after {
+                            background-color: rgb(255, 0, 76);
+                            width: 85%;
+                        }
+                    }
+                    div#sql {
+                        &::after {
+                            background-color: rgb(0, 255, 170);
+                            width: 35%;
+                        }
+                    }
+                    div#sass {
+                        &::after {
+                            background-color: rgb(255, 0, 255);
+                            width: 70%;
+                        }
+                    }
+                    div#git {
+                        &::after {
+                            background-color: rgb(255, 123, 0);
+                            width: 85%;
+                        }
+                    }
+                    &:nth-child(1),
+                    &:nth-child(2),
+                    &:nth-child(3) {
+                        border: solid 3px #d6d1cb;
+                        border-radius: 20px;
+                        width: 250px;
+                        height: 60px;
+                        padding: 10px;
+                        text-align: center;
+                        margin-bottom: 20px;
                     }
                 }
             }

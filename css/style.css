@@ -55,7 +55,8 @@ body header h1 {
 
 body main section#formation {
   border-radius: 20px;
-  width: 1080px;
+  padding: 20px;
+  width: 1040px;
   margin: 50px auto;
   font-family: "Noto Sans", sans-serif;
   color: #ffffff;
@@ -63,7 +64,6 @@ body main section#formation {
 }
 
 body main section#formation h2 {
-  margin: 5px;
   font-size: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -115,6 +115,7 @@ body main section#formation ul#timeline li div.obj label {
   position: absolute;
   z-index: 100;
   top: 20px;
+  left: 5px;
   -webkit-transition: -webkit-transform 0.2s linear;
   cursor: pointer;
 }
@@ -241,11 +242,13 @@ body main section#exp ul#expUl li:nth-child(1) ul li {
 }
 
 body main section#competence {
-  width: 1080px;
+  width: 1040px;
   margin: 0 auto;
+  padding: 20px;
   border-radius: 20px;
-  background-color: #677e8a;
+  background-color: #8a7b67;
   color: #ffffff;
+  margin: 50px auto;
 }
 
 body main section#competence h2 {
@@ -255,17 +258,105 @@ body main section#competence h2 {
   text-transform: uppercase;
   font-family: "Kaushan Script", cursive;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 body main section#competence ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   padding: 0 20px 30px;
 }
 
 body main section#competence ul li {
   list-style: none;
-  padding-top: 10px;
+  margin: 0 10px;
 }
 
 body main section#competence ul li p {
   font-size: 20px;
+}
+
+body main section#competence ul li div {
+  height: 25px;
+  width: 400px;
+  font-size: 14px;
+  line-height: 25px;
+  padding-left: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+body main section#competence ul li div::before {
+  content: "";
+  height: 25px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: black;
+}
+
+body main section#competence ul li div::after {
+  content: "";
+  background: #333;
+  height: 25px;
+  transition: 0.8s;
+  display: block;
+  width: 100%;
+  animation: animate 1 4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body main section#competence ul li div#html::after {
+  background-color: #ff5100;
+  width: 80%;
+}
+
+body main section#competence ul li div#css::after {
+  background-color: #0051ff;
+  width: 80%;
+}
+
+body main section#competence ul li div#js::after {
+  background-color: yellow;
+  width: 40%;
+}
+
+body main section#competence ul li div#php::after {
+  background-color: #0026ff;
+  width: 75%;
+}
+
+body main section#competence ul li div#md::after {
+  background-color: #ff004c;
+  width: 85%;
+}
+
+body main section#competence ul li div#sql::after {
+  background-color: #00ffaa;
+  width: 35%;
+}
+
+body main section#competence ul li div#sass::after {
+  background-color: magenta;
+  width: 70%;
+}
+
+body main section#competence ul li div#git::after {
+  background-color: #ff7b00;
+  width: 85%;
+}
+
+body main section#competence ul li:nth-child(1), body main section#competence ul li:nth-child(2), body main section#competence ul li:nth-child(3) {
+  border: solid 3px #d6d1cb;
+  border-radius: 20px;
+  width: 250px;
+  height: 60px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
 }
