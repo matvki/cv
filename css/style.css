@@ -5,8 +5,11 @@
 }
 
 body header {
-  background-color: #28393d;
-  padding: 20px 0;
+  background-image: linear-gradient(to bottom, rgba(40, 57, 61, 0.575) 0%, #28393d 100%), url(../img/bgHeader.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 50px 0 100px;
 }
 
 body header nav {
@@ -15,6 +18,10 @@ body header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+body header nav div {
+  margin: 0 0 50px;
 }
 
 body header nav div ul li {
@@ -43,9 +50,8 @@ body header h1 {
 }
 
 body main section#Formation {
-  max-width: 1200px;
+  width: 1080px;
   margin: 50px auto;
-  padding: 0 10px;
   font-family: "Noto Sans", sans-serif;
   color: #eeeeee;
   background: #8a7f75;
@@ -104,12 +110,13 @@ body main section#Formation ul#timeline li div.obj label {
   z-index: 100;
   top: 20px;
   -webkit-transition: -webkit-transform 0.2s linear;
+  cursor: pointer;
 }
 
 body main section#Formation ul#timeline li div.obj span.date {
   margin-top: -10px;
   top: 50%;
-  left: -158px;
+  left: -150px;
   line-height: 20px;
   position: absolute;
 }
@@ -169,4 +176,9 @@ body main section#Formation ul#timeline li div.content p {
   hyphens: auto;
   overflow: hidden;
   margin: 0 0 15px;
+}
+
+body main section#exp {
+  width: 1080px;
+  margin: 0 auto;
 }

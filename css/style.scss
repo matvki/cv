@@ -5,8 +5,11 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 body {
     header {
-        background-color: rgb(40, 57, 61);
-        padding: 20px 0;
+        background-image: linear-gradient(to bottom, rgba(40, 57, 61, 0.575) 0%, rgb(40, 57, 61) 100%), url(../img/bgHeader.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 50px 0 100px;
         nav {
             width: 1080px;
             margin: 0 auto;
@@ -14,6 +17,7 @@ body {
             justify-content: space-around;
             align-items: center;
             div {
+                margin: 0 0 50px;
                 ul {
                     li {
                         list-style: none;
@@ -42,9 +46,8 @@ body {
     }
     main {
         section#Formation {
-            max-width: 1200px;
+            width: 1080px;
             margin: 50px auto;
-            padding: 0 10px;
             font-family: "Noto Sans", sans-serif;
             color: rgb(238, 238, 238);
             background: rgb(138, 127, 117);
@@ -97,11 +100,12 @@ body {
                             z-index: 100;
                             top: 20px;
                             -webkit-transition: -webkit-transform 0.2s linear;
+                            cursor: pointer;
                         }
                         span.date {
                             margin-top: -10px;
                             top: 50%;
-                            left: -158px;
+                            left: -150px;
                             line-height: 20px;
                             position: absolute;
                         }
@@ -118,7 +122,6 @@ body {
                             position: absolute;
                         }
                     }
-
                     div.content {
                         max-height: 20px;
                         padding: 50px 20px 0;
@@ -161,6 +164,11 @@ body {
                     }
                 }
             }
+        }
+        section#exp{
+            width: 1080px;
+            margin: 0 auto;
+            
         }
     }
 }
