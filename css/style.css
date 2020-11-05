@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #D6D1CB;
+}
+
 body header {
   background-image: linear-gradient(to bottom, rgba(40, 57, 61, 0.575) 0%, #28393d 100%), url(../img/bgHeader.jpg);
   background-position: center;
@@ -29,7 +33,7 @@ body header nav div ul li {
 }
 
 body header nav div ul li a {
-  color: #d6d6d6;
+  color: #D6D1CB;
   text-decoration: none;
   font-size: 25px;
   font-family: "Righteous", cursive;
@@ -44,12 +48,13 @@ body header nav div img {
 body header h1 {
   padding: 50px 0;
   text-align: center;
-  color: #d6d6d6;
+  color: #D6D1CB;
   font-size: 80px;
   font-family: "Kaushan Script", cursive;
 }
 
 body main section#Formation {
+  border-radius: 20px;
   width: 1080px;
   margin: 50px auto;
   font-family: "Noto Sans", sans-serif;
@@ -162,7 +167,7 @@ body main section#Formation ul#timeline li div.content:before {
 }
 
 body main section#Formation ul#timeline li div.content:after {
-  border-right-color: cyan;
+  border-right-color: #D6D1CB;
   border-width: 17px;
   top: 50%;
   margin-top: -17px;
@@ -181,4 +186,6 @@ body main section#Formation ul#timeline li div.content p {
 body main section#exp {
   width: 1080px;
   margin: 0 auto;
+  border-radius: 20px;
+  background-color: #8A8075;
 }

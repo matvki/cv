@@ -4,6 +4,7 @@
 }
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 body {
+    background-color: #D6D1CB;
     header {
         background-image: linear-gradient(to bottom, rgba(40, 57, 61, 0.575) 0%, rgb(40, 57, 61) 100%), url(../img/bgHeader.jpg);
         background-position: center;
@@ -22,7 +23,7 @@ body {
                     li {
                         list-style: none;
                         a {
-                            color: rgb(214, 214, 214);
+                            color:#D6D1CB;
                             text-decoration: none;
                             font-size: 25px;
                             font-family: "Righteous", cursive;
@@ -39,13 +40,14 @@ body {
         h1 {
             padding: 50px 0;
             text-align: center;
-            color: rgb(214, 214, 214);
+            color:#D6D1CB;
             font-size: 80px;
             font-family: "Kaushan Script", cursive;
         }
     }
     main {
         section#Formation {
+            border-radius: 20px;
             width: 1080px;
             margin: 50px auto;
             font-family: "Noto Sans", sans-serif;
@@ -147,7 +149,7 @@ body {
                             margin-top: -20px;
                         }
                         &:after {
-                            border-right-color: cyan;
+                            border-right-color:#D6D1CB;
                             border-width: 17px;
                             top: 50%;
                             margin-top: -17px;
@@ -168,7 +170,8 @@ body {
         section#exp{
             width: 1080px;
             margin: 0 auto;
-            
+            border-radius: 20px;
+            background-color: #8A8075;
         }
     }
 }
