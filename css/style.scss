@@ -377,7 +377,8 @@ body {
                             padding: 100px 100px;
                             color: transparent;
                             &:hover {
-                                background-image: linear-gradient( rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575) ), url(../img/wake.JPG);
+                                background-image: linear-gradient(rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575)),
+                                    url(../img/wake.JPG);
                                 color: #ffffff;
                             }
                         }
@@ -390,7 +391,8 @@ body {
                             padding: 100px 100px;
                             color: transparent;
                             &:hover {
-                                background-image: linear-gradient( rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575) ), url(../img/team.png);
+                                background-image: linear-gradient(rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575)),
+                                    url(../img/team.png);
                                 color: #ffffff;
                             }
                         }
@@ -403,7 +405,8 @@ body {
                             padding: 100px 100px;
                             color: transparent;
                             &:hover {
-                                background-image: linear-gradient( rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575) ), url(../img/r6.jpg);
+                                background-image: linear-gradient(rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575)),
+                                    url(../img/r6.jpg);
                                 color: #ffffff;
                             }
                         }
@@ -416,7 +419,8 @@ body {
                             padding: 100px 100px;
                             color: transparent;
                             &:hover {
-                                background-image: linear-gradient( rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575) ), url(../img/cinema.jpg);
+                                background-image: linear-gradient(rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575)),
+                                    url(../img/cinema.jpg);
                                 color: #ffffff;
                             }
                         }
@@ -429,7 +433,8 @@ body {
                             color: transparent;
                             padding: 100px 100px;
                             &:hover {
-                                background-image: linear-gradient( rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575) ), url(../img/web.jpg);
+                                background-image: linear-gradient(rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575)),
+                                    url(../img/web.jpg);
                                 color: #ffffff;
                             }
                         }
@@ -442,7 +447,8 @@ body {
                             padding: 100px 100px;
                             color: transparent;
                             &:hover {
-                                background-image: linear-gradient( rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575) ), url(../img/ski.jpg);
+                                background-image: linear-gradient(rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575)),
+                                    url(../img/ski.jpg);
                                 color: #ffffff;
                             }
                         }
@@ -455,7 +461,8 @@ body {
                             padding: 100px 100px;
                             color: transparent;
                             &:hover {
-                                background-image: linear-gradient( rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575) ), url(../img/f1.jpg);
+                                background-image: linear-gradient(rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575)),
+                                    url(../img/f1.jpg);
                                 color: #ffffff;
                             }
                         }
@@ -468,7 +475,8 @@ body {
                             padding: 100px 100px;
                             color: transparent;
                             &:hover {
-                                background-image: linear-gradient( rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575) ), url(../img/velo.jpg);
+                                background-image: linear-gradient(rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575)),
+                                    url(../img/velo.jpg);
                                 color: #ffffff;
                             }
                         }
@@ -481,9 +489,48 @@ body {
                             padding: 100px 100px;
                             color: transparent;
                             &:hover {
-                                background-image: linear-gradient( rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575) ), url(../img/traveaux.JPG);
+                                background-image: linear-gradient(rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575)),
+                                    url(../img/traveaux.JPG);
                                 color: #ffffff;
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        background-color: black;
+        color: white;
+        margin-top: 50px;
+        div {
+            width: 1080px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 50px;
+            p {
+                margin: 20px 0;
+                font-size: 20px;
+                &:nth-child(6) {
+                    margin-top: 70px;
+                    color: rgb(112, 112, 112);
+                    font-size: 15px;
+                }
+            }
+            div {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                padding: 0;
+                margin-top: 50px;
+                a {
+                    margin: 0 20px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        background-color: rgb(143, 143, 143);
+                        &:hover{
+                            background-color: rgb(255, 255, 255);
                         }
                     }
                 }

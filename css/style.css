@@ -508,3 +508,49 @@ body main section#interets ul li:nth-child(9) p:hover {
   background-image: linear-gradient(rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575)), url(../img/traveaux.JPG);
   color: #ffffff;
 }
+
+body footer {
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+}
+
+body footer div {
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+
+body footer div p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+body footer div p:nth-child(6) {
+  margin-top: 70px;
+  color: #707070;
+  font-size: 15px;
+}
+
+body footer div div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0;
+  margin-top: 50px;
+}
+
+body footer div div a {
+  margin: 0 20px;
+}
+
+body footer div div a img {
+  width: 50px;
+  height: 50px;
+  background-color: #8f8f8f;
+}
+
+body footer div div a img:hover {
+  background-color: white;
+}
