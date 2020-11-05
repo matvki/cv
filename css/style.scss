@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    header{
+        
+        background-color: rgb(65, 65, 65);
+        padding: 20px 0;
+        nav{
+            width: 1080px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            div{
+                ul{
+                    li{
+                        list-style: none;
+                        a{
+                            color: rgb(214, 214, 214);
+                            text-decoration: none;
+                            font-size: 25px;
+                            font-family: 'Righteous', cursive;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                img{
+                    height: 200px;
+                    width: auto;
+                }
+            }
+        }
+        h1{
+            padding: 50px 0 ;
+            text-align: center;
+            color: rgb(214, 214, 214);
+            font-size: 80px;
+        }
+    }
+}

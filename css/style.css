@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  background-color: #414141;
+  padding: 20px 0;
+}
+
+body header nav {
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body header nav div ul li {
+  list-style: none;
+}
+
+body header nav div ul li a {
+  color: #d6d6d6;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Righteous', cursive;
+  letter-spacing: 2px;
+}
+
+body header nav div img {
+  height: 200px;
+  width: auto;
+}
+
+body header h1 {
+  padding: 50px 0;
+  text-align: center;
+  color: #d6d6d6;
+  font-size: 80px;
+}
