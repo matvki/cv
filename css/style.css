@@ -353,11 +353,14 @@ body main section#competence ul li div#git::after {
 
 body main section#competence ul li:nth-child(1), body main section#competence ul li:nth-child(2), body main section#competence ul li:nth-child(3) {
   border: solid 3px #d6d1cb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 20px;
+  text-align: center;
   width: 250px;
   height: 100px;
   padding: 10px;
-  text-align: center;
   margin-bottom: 20px;
 }
 
