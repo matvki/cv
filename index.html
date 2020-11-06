@@ -12,9 +12,29 @@
 
 <body>
     <header>
-        <nav>
+        <!-- <nav>
             <div>
-                <ul>
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="container">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#formation">Formation</a></li>
+                    <li><a href="#exp">Experience professionnelle</a></li>
+                    <li><a href="#competence">Competences</a></li>
+                    <li><a href="#interets">Centres d'interêts</a></li>
+                </ul>
+            </div>
+        </nav> -->
+
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu" class="container">
                     <li><a href="#">Home</a></li>
                     <li><a href="#formation">Formation</a></li>
                     <li><a href="#exp">Experience professionnelle</a></li>
@@ -23,13 +43,13 @@
                 </ul>
             </div>
         </nav>
-        <div>
+        <div class="container">
             <img src="./img/image.png" alt="Picture of me">
         </div>
         <h1>Mattéo Vecchi</h1>
     </header>
     <main>
-        <section id="formation">
+        <section id="formation" class="miniContainer">
             <h2>Formation</h2>
             <ul id='timeline'>
                 <li class='work'>
@@ -130,7 +150,7 @@
                 </li>
             </ul>
         </section>
-        <section id="exp">
+        <section id="exp" class="miniContainer">
             <h2>Experience professionnelle</h2>
             <ul id="expUl">
                 <li>
@@ -168,7 +188,7 @@
                 </li>
             </ul>
         </section>
-        <section id="competence">
+        <section id="competence" class="miniContainer">
             <h2>Compétences</h2>
             <ul>
                 <li>
@@ -214,7 +234,7 @@
                 </li>
             </ul>
         </section>
-        <section id="interets">
+        <section id="interets" class="miniContainer">
             <h2>Centres d'interêts</h2>
             <ul>
                 <li>
@@ -248,7 +268,7 @@
         </section>
     </main>
     <footer>
-        <div>
+        <div class="container">
             <h3>Quelques informations complémentaires</h3>
             <div>
                 <a target="_blank" href="https://www.linkedin.com/in/matteo-vecchi-38294619b/"><img
