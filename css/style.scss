@@ -13,29 +13,39 @@ body {
         background-size: cover;
         padding: 50px 0 100px;
         nav {
-            width: 1080px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
             div {
-                margin: 0 0 50px;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.479);
+                top: -30px;
+                z-index: 10000;
+                position: fixed;
+                padding: 10px 0;
                 ul {
+                    width: 1080px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
                     li {
                         list-style: none;
                         a {
                             color: #d6d1cb;
                             text-decoration: none;
-                            font-size: 25px;
+                            font-size: 20px;
                             font-family: "Righteous", cursive;
                             letter-spacing: 2px;
                         }
                     }
                 }
-                img {
-                    height: 200px;
-                    width: auto;
-                }
+            }
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            width: 1080px;
+            margin: 70px auto;
+            img {
+                height: 200px;
+                width: auto;
             }
         }
         h1 {
@@ -344,7 +354,6 @@ body {
                         height: 100px;
                         padding: 10px;
                         margin-bottom: 20px;
-                        
                     }
                 }
             }
@@ -511,7 +520,7 @@ body {
             width: 1080px;
             margin: 0 auto;
             text-align: center;
-            padding: 50px;
+            padding: 50px 0;
             p {
                 margin: 20px 0;
                 font-size: 20px;
@@ -533,7 +542,7 @@ body {
                         width: 50px;
                         height: 50px;
                         background-color: rgb(143, 143, 143);
-                        &:hover{
+                        &:hover {
                             background-color: rgb(255, 255, 255);
                         }
                     }
