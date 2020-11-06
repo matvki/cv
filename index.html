@@ -12,24 +12,44 @@
 
 <body>
     <header>
-        <nav>
+        <!-- <nav>
             <div>
-                <ul>
-                    <li><a href="/">Home</a></li>
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="container">
+                    <li><a href="#">Home</a></li>
                     <li><a href="#formation">Formation</a></li>
                     <li><a href="#exp">Experience professionnelle</a></li>
                     <li><a href="#competence">Competences</a></li>
                     <li><a href="#interets">Centres d'interêts</a></li>
                 </ul>
             </div>
-            <div>
-                <img src="./img/image.png" alt="Picture of me">
+        </nav> -->
+
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu" class="container">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#formation">Formation</a></li>
+                    <li><a href="#exp">Experience professionnelle</a></li>
+                    <li><a href="#competence">Competences</a></li>
+                    <li><a href="#interets">Centres d'interêts</a></li>
+                </ul>
             </div>
         </nav>
+        <div class="container">
+            <img src="./img/image.png" alt="Picture of me">
+        </div>
         <h1>Mattéo Vecchi</h1>
     </header>
     <main>
-        <section id="formation">
+        <section id="formation" class="miniContainer">
             <h2>Formation</h2>
             <ul id='timeline'>
                 <li class='work'>
@@ -130,7 +150,7 @@
                 </li>
             </ul>
         </section>
-        <section id="exp">
+        <section id="exp" class="miniContainer">
             <h2>Experience professionnelle</h2>
             <ul id="expUl">
                 <li>
@@ -168,7 +188,7 @@
                 </li>
             </ul>
         </section>
-        <section id="competence">
+        <section id="competence" class="miniContainer">
             <h2>Compétences</h2>
             <ul>
                 <li>
@@ -214,11 +234,11 @@
                 </li>
             </ul>
         </section>
-        <section id="interets">
+        <section id="interets" class="miniContainer">
             <h2>Centres d'interêts</h2>
             <ul>
                 <li>
-                    <p>WakeBord</p>
+                    <p>WakeBoard</p>
                 </li>
                 <li>
                     <p>Dessin</p>
@@ -248,14 +268,18 @@
         </section>
     </main>
     <footer>
-        <div>
+        <div class="container">
             <h3>Quelques informations complémentaires</h3>
             <div>
-                <a target="_blank" href="https://www.linkedin.com/in/matteo-vecchi-38294619b/"><img src="./img/linkedin-brands.svg" alt=""></a>
-                <a target="_blank" href="https://github.com/matvki"><img src="./img/github-square-brands.svg" alt=""></a>
+                <a target="_blank" href="https://www.linkedin.com/in/matteo-vecchi-38294619b/"><img
+                        src="./img/linkedin-brands.svg" alt=""></a>
+                <a target="_blank" href="https://github.com/matvki"><img src="./img/github-square-brands.svg"
+                        alt=""></a>
             </div>
-            <p>Je m'appelle Mattéo Vecchi, j'ai 20 ans, je vie a Grenoble dans l'Isère, plus précisement à quaix en chartreuse.</p>
-            <p>Pour me contacter voici mon numéro de téléphone: 0682428192, ainsi que mon adresse mail: m.vecchi@it-students.fr.</p>
+            <p>Je m'appelle Mattéo Vecchi, j'ai 20 ans, je vie a Grenoble dans l'Isère, plus précisement à quaix en
+                chartreuse.</p>
+            <p>Pour me contacter voici mon numéro de téléphone: 0682428192, ainsi que mon adresse mail:
+                m.vecchi@it-students.fr.</p>
             <p>merci de votre visite</p>
             <p>matvki.github.io/cv/ © 2020 | All rights reserved</p>
         </div>

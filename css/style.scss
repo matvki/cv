@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+.container {
+    width: 1080px;
+}
+.miniContainer {
+    width: 1040px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 body {
     background-color: #d6d1cb;
@@ -13,29 +22,43 @@ body {
         background-size: cover;
         padding: 50px 0 100px;
         nav {
-            width: 1080px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
             div {
-                margin: 0 0 50px;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.479);
+                top: -30px;
+                z-index: 10000;
+                position: fixed;
+                padding: 10px 0;
+                input {
+                    display: none;
+                }
+                span {
+                    display: none;
+                }
                 ul {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    list-style-type: none;
                     li {
-                        list-style: none;
                         a {
                             color: #d6d1cb;
                             text-decoration: none;
-                            font-size: 25px;
+                            font-size: 20px;
                             font-family: "Righteous", cursive;
                             letter-spacing: 2px;
                         }
                     }
                 }
-                img {
-                    height: 200px;
-                    width: auto;
-                }
+            }
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            margin: 70px auto;
+            img {
+                height: 200px;
+                width: auto;
             }
         }
         h1 {
@@ -48,9 +71,6 @@ body {
     }
     main {
         section#formation {
-            border-radius: 20px;
-            padding: 20px;
-            width: 1040px;
             margin: 50px auto;
             font-family: "Noto Sans", sans-serif;
             color: #ffffff;
@@ -171,11 +191,6 @@ body {
             }
         }
         section#exp {
-            //attention ici la width est de 1040px car il y a un padding de 20px de chaque cote juste en dessous
-            width: 1040px;
-            margin: 0 auto;
-            border-radius: 20px;
-            padding: 20px;
             background-color: #677e8a;
             color: #ffffff;
             h2 {
@@ -225,10 +240,6 @@ body {
             }
         }
         section#competence {
-            width: 1040px;
-            margin: 0 auto;
-            padding: 20px;
-            border-radius: 20px;
             background-color: #8a7b67;
             color: #ffffff;
             margin: 50px auto;
@@ -344,16 +355,11 @@ body {
                         height: 100px;
                         padding: 10px;
                         margin-bottom: 20px;
-                        
                     }
                 }
             }
         }
         section#interets {
-            width: 1040px;
-            margin: 0 auto;
-            padding: 20px;
-            border-radius: 20px;
             background-color: #b6cbd6;
             color: #ffffff;
             h2 {
@@ -508,10 +514,9 @@ body {
         color: white;
         margin-top: 50px;
         div {
-            width: 1080px;
             margin: 0 auto;
             text-align: center;
-            padding: 50px;
+            padding: 50px 0;
             p {
                 margin: 20px 0;
                 font-size: 20px;
@@ -533,12 +538,332 @@ body {
                         width: 50px;
                         height: 50px;
                         background-color: rgb(143, 143, 143);
-                        &:hover{
+                        &:hover {
                             background-color: rgb(255, 255, 255);
                         }
                     }
                 }
             }
         }
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 350px;
+    }
+    .miniContainer {
+        width: 310px;
+    }
+    body {
+        header {
+            nav {
+                div#menuToggle {
+                    display: block;
+                    position: fixed;
+                    padding-left: 10px;
+                    z-index: 1;
+                    -webkit-user-select: none;
+                    user-select: none;
+                    input {
+                        display: block;
+                        width: 40px;
+                        height: 32px;
+                        position: absolute;
+                        top: -7px;
+                        left: -5px;
+                        cursor: pointer;
+                        opacity: 0; /* hide this */
+                        z-index: 2; /* and place it over the hamburger */
+                        -webkit-touch-callout: none;
+                        &:checked ~ span {
+                            opacity: 1;
+                            transform: rotate(45deg) translate(-2px, -1px);
+                            background: #232323;
+                            &:nth-last-child(3) {
+                                opacity: 0;
+                                transform: rotate(0deg) scale(0.2, 0.2);
+                            }
+                            &:nth-last-child(2) {
+                                transform: rotate(-45deg) translate(0, -1px);
+                            }
+                        }
+                        &:checked ~ ul {
+                            transform: translateX(400px);
+                        }
+                    }
+                    span {
+                        display: block;
+                        width: 33px;
+                        height: 4px;
+                        margin-bottom: 5px;
+                        position: relative;
+                        background: #cdcdcd;
+                        border-radius: 3px;
+                        z-index: 1;
+                        transform-origin: 4px 0px;
+                        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+                            background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+                        &:nth-child(1) {
+                            transform-origin: 0% 0%;
+                        }
+                        &:nth-child(2) {
+                            transform-origin: 0% 100%;
+                        }
+                    }
+                    ul#menu {
+                        display: block;
+                        position: absolute;
+                        width: 300px;
+                        margin: -100px 0 0 -450px;
+                        padding: 50px;
+                        padding-top: 125px;
+                        background: #ededed;
+                        list-style-type: none;
+                        -webkit-font-smoothing: antialiased;
+                        /* to stop flickering of text in safari */
+                        transform-origin: 0% 0%;
+                        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+                        li {
+                            padding: 10px 0;
+                            font-size: 22px;
+                            a {
+                                font-size: 12px;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        main {
+            section#formation{
+                ul#timeline{
+                    li{
+                        input.radio:checked{
+                            & ~ div.content{
+                                max-height: 300px;
+                                border: none;
+                            }
+                        }
+                        div.obj{
+                            label{
+                                font-size: 15px;
+                                left: 0;
+                            }
+                        }
+                        div.content{
+                            &::before, &::after{
+                                right: 155px;
+                            }
+                        }
+                    }
+                }
+            }
+            section#exp {
+                ul#expUl {
+                    li {
+                        width: auto;
+                        ul {
+                            li {
+                                width: auto;
+                            }
+                        }
+                    }
+                }
+            }
+            section#competence {
+                ul {
+                    li {
+                        &:nth-child(1),
+                        &:nth-child(2),
+                        &:nth-child(3) {
+                            width: 400px;
+                        }
+                        div{
+                            width: 270px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 577px) {
+    .container {
+        width: 576px;
+    }
+    .miniContainer {
+        width: 536px;
+    }
+    body {
+        header {
+            nav {
+                div#menuToggle {
+                    display: block;
+                    position: fixed;
+                    padding-left: 10px;
+                    z-index: 1;
+                    -webkit-user-select: none;
+                    user-select: none;
+                    input {
+                        display: block;
+                        width: 40px;
+                        height: 32px;
+                        position: absolute;
+                        top: -7px;
+                        left: -5px;
+                        cursor: pointer;
+                        opacity: 0; /* hide this */
+                        z-index: 2; /* and place it over the hamburger */
+                        -webkit-touch-callout: none;
+                        &:checked ~ span {
+                            opacity: 1;
+                            transform: rotate(45deg) translate(-2px, -1px);
+                            background: #232323;
+                            &:nth-last-child(3) {
+                                opacity: 0;
+                                transform: rotate(0deg) scale(0.2, 0.2);
+                            }
+                            &:nth-last-child(2) {
+                                transform: rotate(-45deg) translate(0, -1px);
+                            }
+                        }
+                        &:checked ~ ul {
+                            transform: translateX(400px);
+                        }
+                    }
+                    span {
+                        display: block;
+                        width: 33px;
+                        height: 4px;
+                        margin-bottom: 5px;
+                        position: relative;
+                        background: #cdcdcd;
+                        border-radius: 3px;
+                        z-index: 1;
+                        transform-origin: 4px 0px;
+                        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+                            background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+                        &:nth-child(1) {
+                            transform-origin: 0% 0%;
+                        }
+                        &:nth-child(2) {
+                            transform-origin: 0% 100%;
+                        }
+                    }
+                    ul#menu {
+                        display: block;
+                        position: absolute;
+                        width: 300px;
+                        margin: -100px 0 0 -450px;
+                        padding: 50px;
+                        padding-top: 125px;
+                        background: #ededed;
+                        list-style-type: none;
+                        -webkit-font-smoothing: antialiased;
+                        /* to stop flickering of text in safari */
+                        transform-origin: 0% 0%;
+                        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+                        li {
+                            padding: 10px 0;
+                            font-size: 22px;
+                            a {
+                                font-size: 12px;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        main {
+            section#exp {
+                ul#expUl {
+                    li {
+                        width: auto;
+                        ul {
+                            li {
+                                width: auto;
+                            }
+                        }
+                    }
+                }
+            }
+            section#competence {
+                ul {
+                    li {
+                        &:nth-child(1),
+                        &:nth-child(2),
+                        &:nth-child(3) {
+                            width: 400px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .miniContainer {
+        width: 728px;
+    }
+    body {
+        header {
+            nav {
+                div {
+                    ul {
+                        li {
+                            a {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        main {
+            section#exp {
+                ul#expUl {
+                    li {
+                        width: auto;
+                        ul {
+                            li {
+                                width: auto;
+                            }
+                        }
+                    }
+                }
+            }
+            section#competence {
+                ul {
+                    li {
+                        &:nth-child(1),
+                        &:nth-child(2),
+                        &:nth-child(3) {
+                            width: 400px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 992px;
+    }
+    .miniContainer {
+        width: 952px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1080px;
+    }
+    .miniContainer {
+        width: 1040px;
     }
 }
