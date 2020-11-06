@@ -21,7 +21,7 @@ body {
         background-attachment: fixed;
         background-size: cover;
         padding: 50px 0 100px;
-        nav {
+        nav#band {
             div {
                 width: 100%;
                 background-color: rgba(0, 0, 0, 0.479);
@@ -556,7 +556,10 @@ body {
     }
     body {
         header {
-            nav {
+            nav#band{
+                display: none;
+            }
+            nav#burger {
                 div#menuToggle {
                     display: block;
                     position: fixed;
@@ -578,7 +581,7 @@ body {
                         &:checked ~ span {
                             opacity: 1;
                             transform: rotate(45deg) translate(-2px, -1px);
-                            background: #232323;
+                            background: #000000;
                             &:nth-last-child(3) {
                                 opacity: 0;
                                 transform: rotate(0deg) scale(0.2, 0.2);
@@ -597,7 +600,7 @@ body {
                         height: 4px;
                         margin-bottom: 5px;
                         position: relative;
-                        background: #cdcdcd;
+                        background: #000000;
                         border-radius: 3px;
                         z-index: 1;
                         transform-origin: 4px 0px;
@@ -697,7 +700,11 @@ body {
     }
     body {
         header {
-            nav {
+            nav#band{
+                display: none;
+            }
+            nav#burger {
+
                 div#menuToggle {
                     display: block;
                     position: fixed;
@@ -719,7 +726,7 @@ body {
                         &:checked ~ span {
                             opacity: 1;
                             transform: rotate(45deg) translate(-2px, -1px);
-                            background: #232323;
+                            background: #000000;
                             &:nth-last-child(3) {
                                 opacity: 0;
                                 transform: rotate(0deg) scale(0.2, 0.2);
@@ -738,7 +745,7 @@ body {
                         height: 4px;
                         margin-bottom: 5px;
                         position: relative;
-                        background: #cdcdcd;
+                        background: #000000;
                         border-radius: 3px;
                         z-index: 1;
                         transform-origin: 4px 0px;
@@ -812,7 +819,11 @@ body {
     }
     body {
         header {
-            nav {
+            nav#burger{
+                display: none;
+            }
+            nav#band {
+                display: block;
                 div {
                     ul {
                         li {

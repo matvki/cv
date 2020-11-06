@@ -27,7 +27,7 @@ body header {
   padding: 50px 0 100px;
 }
 
-body header nav div {
+body header nav#band div {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.479);
   top: -30px;
@@ -36,22 +36,22 @@ body header nav div {
   padding: 10px 0;
 }
 
-body header nav div input {
+body header nav#band div input {
   display: none;
 }
 
-body header nav div span {
+body header nav#band div span {
   display: none;
 }
 
-body header nav div ul {
+body header nav#band div ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
 }
 
-body header nav div ul li a {
+body header nav#band div ul li a {
   color: #d6d1cb;
   text-decoration: none;
   font-size: 20px;
@@ -574,7 +574,10 @@ body footer div div a img:hover {
   .miniContainer {
     width: 310px;
   }
-  body header nav div#menuToggle {
+  body header nav#band {
+    display: none;
+  }
+  body header nav#burger div#menuToggle {
     display: block;
     position: fixed;
     padding-left: 10px;
@@ -582,7 +585,7 @@ body footer div div a img:hover {
     -webkit-user-select: none;
     user-select: none;
   }
-  body header nav div#menuToggle input {
+  body header nav#burger div#menuToggle input {
     display: block;
     width: 40px;
     height: 32px;
@@ -596,40 +599,40 @@ body footer div div a img:hover {
     /* and place it over the hamburger */
     -webkit-touch-callout: none;
   }
-  body header nav div#menuToggle input:checked ~ span {
+  body header nav#burger div#menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
+    background: #000000;
   }
-  body header nav div#menuToggle input:checked ~ span:nth-last-child(3) {
+  body header nav#burger div#menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
-  body header nav div#menuToggle input:checked ~ span:nth-last-child(2) {
+  body header nav#burger div#menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
   }
-  body header nav div#menuToggle input:checked ~ ul {
+  body header nav#burger div#menuToggle input:checked ~ ul {
     transform: translateX(400px);
   }
-  body header nav div#menuToggle span {
+  body header nav#burger div#menuToggle span {
     display: block;
     width: 33px;
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background: #cdcdcd;
+    background: #000000;
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
-  body header nav div#menuToggle span:nth-child(1) {
+  body header nav#burger div#menuToggle span:nth-child(1) {
     transform-origin: 0% 0%;
   }
-  body header nav div#menuToggle span:nth-child(2) {
+  body header nav#burger div#menuToggle span:nth-child(2) {
     transform-origin: 0% 100%;
   }
-  body header nav div#menuToggle ul#menu {
+  body header nav#burger div#menuToggle ul#menu {
     display: block;
     position: absolute;
     width: 300px;
@@ -643,11 +646,11 @@ body footer div div a img:hover {
     transform-origin: 0% 0%;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
-  body header nav div#menuToggle ul#menu li {
+  body header nav#burger div#menuToggle ul#menu li {
     padding: 10px 0;
     font-size: 22px;
   }
-  body header nav div#menuToggle ul#menu li a {
+  body header nav#burger div#menuToggle ul#menu li a {
     font-size: 12px;
     color: black;
   }
@@ -683,7 +686,10 @@ body footer div div a img:hover {
   .miniContainer {
     width: 536px;
   }
-  body header nav div#menuToggle {
+  body header nav#band {
+    display: none;
+  }
+  body header nav#burger div#menuToggle {
     display: block;
     position: fixed;
     padding-left: 10px;
@@ -691,7 +697,7 @@ body footer div div a img:hover {
     -webkit-user-select: none;
     user-select: none;
   }
-  body header nav div#menuToggle input {
+  body header nav#burger div#menuToggle input {
     display: block;
     width: 40px;
     height: 32px;
@@ -705,40 +711,40 @@ body footer div div a img:hover {
     /* and place it over the hamburger */
     -webkit-touch-callout: none;
   }
-  body header nav div#menuToggle input:checked ~ span {
+  body header nav#burger div#menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
+    background: #000000;
   }
-  body header nav div#menuToggle input:checked ~ span:nth-last-child(3) {
+  body header nav#burger div#menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
-  body header nav div#menuToggle input:checked ~ span:nth-last-child(2) {
+  body header nav#burger div#menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
   }
-  body header nav div#menuToggle input:checked ~ ul {
+  body header nav#burger div#menuToggle input:checked ~ ul {
     transform: translateX(400px);
   }
-  body header nav div#menuToggle span {
+  body header nav#burger div#menuToggle span {
     display: block;
     width: 33px;
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background: #cdcdcd;
+    background: #000000;
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
-  body header nav div#menuToggle span:nth-child(1) {
+  body header nav#burger div#menuToggle span:nth-child(1) {
     transform-origin: 0% 0%;
   }
-  body header nav div#menuToggle span:nth-child(2) {
+  body header nav#burger div#menuToggle span:nth-child(2) {
     transform-origin: 0% 100%;
   }
-  body header nav div#menuToggle ul#menu {
+  body header nav#burger div#menuToggle ul#menu {
     display: block;
     position: absolute;
     width: 300px;
@@ -752,11 +758,11 @@ body footer div div a img:hover {
     transform-origin: 0% 0%;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
-  body header nav div#menuToggle ul#menu li {
+  body header nav#burger div#menuToggle ul#menu li {
     padding: 10px 0;
     font-size: 22px;
   }
-  body header nav div#menuToggle ul#menu li a {
+  body header nav#burger div#menuToggle ul#menu li a {
     font-size: 12px;
     color: black;
   }
@@ -778,7 +784,13 @@ body footer div div a img:hover {
   .miniContainer {
     width: 728px;
   }
-  body header nav div ul li a {
+  body header nav#burger {
+    display: none;
+  }
+  body header nav#band {
+    display: block;
+  }
+  body header nav#band div ul li a {
     font-size: 15px;
   }
   body main section#exp ul#expUl li {
