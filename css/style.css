@@ -61,11 +61,25 @@ body header nav#band div ul li a {
 
 body header div {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   margin: 70px auto;
 }
 
-body header div img {
+body header div div ul li {
+  list-style: none;
+}
+
+body header div div ul li p {
+  text-align: left;
+}
+
+body header div div ul li p a {
+  text-decoration: none;
+  color: #b4b4b4;
+}
+
+body header div div img {
   height: 200px;
   width: auto;
 }
@@ -75,6 +89,13 @@ body header h1 {
   text-align: center;
   color: #d6d1cb;
   font-size: 80px;
+  font-family: "Kaushan Script", cursive;
+}
+
+body header p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
   font-family: "Kaushan Script", cursive;
 }
 
@@ -432,7 +453,7 @@ body main section#interets ul li:nth-child(2) p:hover {
 }
 
 body main section#interets ul li:nth-child(3) p {
-  background-image: url(../img/r6.jpg);
+  background-image: url(../img/jeuxVideo.jpg);
   background-position: center;
   background-size: cover;
   padding: 100px 100px;
@@ -440,7 +461,7 @@ body main section#interets ul li:nth-child(3) p {
 }
 
 body main section#interets ul li:nth-child(3) p:hover {
-  background-image: linear-gradient(rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575)), url(../img/r6.jpg);
+  background-image: linear-gradient(rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575)), url(../img/jeuxVideo.jpg);
   color: #ffffff;
 }
 
@@ -654,6 +675,9 @@ body footer div div a img:hover {
     font-size: 12px;
     color: black;
   }
+  body header div {
+    flex-direction: column;
+  }
   body main section#formation ul#timeline li input.radio:checked ~ div.content {
     max-height: 300px;
     border: none;
@@ -810,6 +834,9 @@ body footer div div a img:hover {
   }
   .miniContainer {
     width: 952px;
+  }
+  body main section#competence ul li:nth-child(1), body main section#competence ul li:nth-child(2), body main section#competence ul li:nth-child(3) {
+    width: 250px;
   }
 }
 

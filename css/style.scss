@@ -54,11 +54,26 @@ body {
         }
         div {
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
             margin: 70px auto;
-            img {
-                height: 200px;
-                width: auto;
+            div{
+                ul{
+                    li{
+                        list-style: none;
+                        p{
+                            text-align: left;
+                            a{
+                                text-decoration: none;
+                                color: rgb(180, 180, 180);
+                            }
+                        }
+                    }
+                }
+                img {
+                    height: 200px;
+                    width: auto;
+                }
             }
         }
         h1 {
@@ -66,6 +81,12 @@ body {
             text-align: center;
             color: #d6d1cb;
             font-size: 80px;
+            font-family: "Kaushan Script", cursive;
+        }
+        p{
+            text-align: center;
+            color: white;
+            font-size: 20px;
             font-family: "Kaushan Script", cursive;
         }
     }
@@ -409,14 +430,14 @@ body {
                     }
                     &:nth-child(3) {
                         p {
-                            background-image: url(../img/r6.jpg);
+                            background-image: url(../img/jeuxVideo.jpg);
                             background-position: center;
                             background-size: cover;
                             padding: 100px 100px;
                             color: transparent;
                             &:hover {
                                 background-image: linear-gradient(rgba(40, 57, 61, 0.575), rgba(40, 57, 61, 0.575)),
-                                    url(../img/r6.jpg);
+                                    url(../img/jeuxVideo.jpg);
                                 color: #ffffff;
                             }
                         }
@@ -636,6 +657,9 @@ body {
                         }
                     }
                 }
+            }
+            div{
+                flex-direction: column;
             }
         }
         main {
@@ -868,6 +892,21 @@ body {
     }
     .miniContainer {
         width: 952px;
+    }
+    body{
+        main {
+            section#competence {
+                ul {
+                    li {
+                        &:nth-child(1),
+                        &:nth-child(2),
+                        &:nth-child(3) {
+                            width: 250px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 @media (min-width: 1200px) {
