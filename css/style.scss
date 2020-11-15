@@ -224,7 +224,7 @@ body {
             }
             ul#expUl {
                 display: flex;
-                flex-wrap: wrap;
+                flex-direction: column;
                 align-items: center;
                 justify-content: center;
                 li {
@@ -232,7 +232,7 @@ body {
                     padding: 15px;
                     list-style: none;
                     border-radius: 20px;
-                    width: 420px;
+                    width: 80%;
                     margin: 10px;
                     h3 {
                         text-decoration: underline;
@@ -246,15 +246,6 @@ body {
                     ul {
                         li {
                             border: none;
-                            width: 400px;
-                        }
-                    }
-                    &:nth-child(1) {
-                        border: none;
-                        ul {
-                            li {
-                                border: solid 3px #d6d1cb;
-                            }
                         }
                     }
                 }
@@ -315,6 +306,18 @@ body {
                             left: 0;
                         }
                     }
+                    div#git {
+                        &::after {
+                            background-color: rgb(255, 123, 0);
+                            width: 85%;
+                        }
+                    }
+                    div#md {
+                        &::after {
+                            background-color: rgb(255, 0, 76);
+                            width: 85%;
+                        }
+                    }
                     div#html {
                         &::after {
                             background-color: rgb(255, 81, 0);
@@ -327,28 +330,10 @@ body {
                             width: 80%;
                         }
                     }
-                    div#js {
-                        &::after {
-                            background-color: yellow;
-                            width: 40%;
-                        }
-                    }
                     div#php {
                         &::after {
                             background-color: rgb(0, 38, 255);
                             width: 75%;
-                        }
-                    }
-                    div#md {
-                        &::after {
-                            background-color: rgb(255, 0, 76);
-                            width: 85%;
-                        }
-                    }
-                    div#sql {
-                        &::after {
-                            background-color: rgb(0, 255, 170);
-                            width: 35%;
                         }
                     }
                     div#sass {
@@ -357,22 +342,29 @@ body {
                             width: 70%;
                         }
                     }
-                    div#git {
+                    div#js {
                         &::after {
-                            background-color: rgb(255, 123, 0);
-                            width: 85%;
+                            background-color: yellow;
+                            width: 40%;
+                        }
+                    }
+                    div#sql {
+                        &::after {
+                            background-color: rgb(0, 255, 170);
+                            width: 35%;
                         }
                     }
                     &:nth-child(1),
                     &:nth-child(2),
-                    &:nth-child(3) {
+                    &:nth-child(3),
+                    &:nth-child(4) {
                         border: solid 3px #d6d1cb;
                         display: flex;
                         align-items: center;
                         justify-content: center;
                         border-radius: 20px;
                         text-align: center;
-                        width: 250px;
+                        width: 450px;
                         height: 100px;
                         padding: 10px;
                         margin-bottom: 20px;
@@ -686,24 +678,13 @@ body {
                     }
                 }
             }
-            section#exp {
-                ul#expUl {
-                    li {
-                        width: auto;
-                        ul {
-                            li {
-                                width: auto;
-                            }
-                        }
-                    }
-                }
-            }
             section#competence {
                 ul {
                     li {
                         &:nth-child(1),
                         &:nth-child(2),
-                        &:nth-child(3) {
+                        &:nth-child(3),
+                        &:nth-child(4) {
                             width: 400px;
                         }
                         div{
@@ -808,24 +789,13 @@ body {
             }
         }
         main {
-            section#exp {
-                ul#expUl {
-                    li {
-                        width: auto;
-                        ul {
-                            li {
-                                width: auto;
-                            }
-                        }
-                    }
-                }
-            }
             section#competence {
                 ul {
                     li {
                         &:nth-child(1),
                         &:nth-child(2),
-                        &:nth-child(3) {
+                        &:nth-child(3),
+                        &:nth-child(4) {
                             width: 400px;
                         }
                     }
@@ -860,24 +830,13 @@ body {
             }
         }
         main {
-            section#exp {
-                ul#expUl {
-                    li {
-                        width: auto;
-                        ul {
-                            li {
-                                width: auto;
-                            }
-                        }
-                    }
-                }
-            }
             section#competence {
                 ul {
                     li {
                         &:nth-child(1),
                         &:nth-child(2),
-                        &:nth-child(3) {
+                        &:nth-child(3),
+                        &:nth-child(4) {
                             width: 400px;
                         }
                     }
@@ -900,8 +859,9 @@ body {
                     li {
                         &:nth-child(1),
                         &:nth-child(2),
-                        &:nth-child(3) {
-                            width: 250px;
+                        &:nth-child(3),
+                        &:nth-child(4) {
+                            width: 500px;
                         }
                     }
                 }
@@ -915,5 +875,21 @@ body {
     }
     .miniContainer {
         width: 1040px;
+    }
+    body{
+        main {
+            section#competence {
+                ul {
+                    li {
+                        &:nth-child(1),
+                        &:nth-child(2),
+                        &:nth-child(3),
+                        &:nth-child(4) {
+                            width: 450px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
