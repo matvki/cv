@@ -11,7 +11,6 @@
     margin: 0 auto;
     border-radius: 20px;
 }
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 body {
     background-color: #d6d1cb;
     header {
@@ -57,13 +56,13 @@ body {
             justify-content: space-around;
             align-items: center;
             margin: 70px auto;
-            div{
-                ul{
-                    li{
+            div {
+                ul {
+                    li {
                         list-style: none;
-                        p{
+                        p {
                             text-align: left;
-                            a{
+                            a {
                                 text-decoration: none;
                                 color: rgb(180, 180, 180);
                             }
@@ -83,11 +82,11 @@ body {
             font-size: 80px;
             font-family: "Kaushan Script", cursive;
         }
-        p{
+        p {
             text-align: center;
             color: white;
             font-size: 20px;
-            font-family: "Kaushan Script", cursive;
+            font-family: "Pacifico", cursive;
         }
     }
     main {
@@ -569,7 +568,7 @@ body {
     }
     body {
         header {
-            nav#band{
+            nav#band {
                 display: none;
             }
             nav#burger {
@@ -650,28 +649,29 @@ body {
                     }
                 }
             }
-            div{
+            div {
                 flex-direction: column;
             }
         }
         main {
-            section#formation{
-                ul#timeline{
-                    li{
-                        input.radio:checked{
-                            & ~ div.content{
+            section#formation {
+                ul#timeline {
+                    li {
+                        input.radio:checked {
+                            & ~ div.content {
                                 max-height: 300px;
                                 border: none;
                             }
                         }
-                        div.obj{
-                            label{
+                        div.obj {
+                            label {
                                 font-size: 15px;
                                 left: 0;
                             }
                         }
-                        div.content{
-                            &::before, &::after{
+                        div.content {
+                            &::before,
+                            &::after {
                                 right: 155px;
                             }
                         }
@@ -687,7 +687,7 @@ body {
                         &:nth-child(4) {
                             width: 400px;
                         }
-                        div{
+                        div {
                             width: 270px;
                         }
                     }
@@ -705,11 +705,10 @@ body {
     }
     body {
         header {
-            nav#band{
+            nav#band {
                 display: none;
             }
             nav#burger {
-
                 div#menuToggle {
                     display: block;
                     position: fixed;
@@ -813,7 +812,7 @@ body {
     }
     body {
         header {
-            nav#burger{
+            nav#burger {
                 display: none;
             }
             nav#band {
@@ -852,7 +851,7 @@ body {
     .miniContainer {
         width: 952px;
     }
-    body{
+    body {
         main {
             section#competence {
                 ul {
@@ -876,7 +875,7 @@ body {
     .miniContainer {
         width: 1040px;
     }
-    body{
+    body {
         main {
             section#competence {
                 ul {
